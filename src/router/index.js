@@ -20,6 +20,6 @@ export default new Router({
     //   name: 'HelloWorld',
     //   component: HelloWorld
     // }
-    {path: '*', redirect: 'other/explain'}
+    { path: '*', redirect: 'js/earth' }
   ]
 })

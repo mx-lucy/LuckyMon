@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-menu mode="horizontal"
-             background-color="#409EFF"
+             background-color="black"
              active-text-color="#ffd04b"
              text-color="#fff">
       <el-menu-item index="1"><img src="../assets/logo.png" style="width: 60px;"/></el-menu-item>
@@ -28,5 +28,8 @@ export default {
 </script>
 
 <style scoped>
-
+  a {
+    text-decoration:none;
+    color: white;
+  }
 </style>
