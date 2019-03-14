@@ -2,7 +2,7 @@
   <div id="app">
       <Header style="width: 100%;"></Header>
       <router-view/>
-      <Footer style="width: 100%;"></Footer>
+      <Footer class="footer"></Footer>
     <!--<img src="./assets/logo.png">-->
   </div>
 </template>
@@ -20,4 +20,9 @@ export default {
 </script>
 
 <style>
+  .footer{
+    float: left;
+    width: 100%;
+    height:50px;
+  }
 </style>

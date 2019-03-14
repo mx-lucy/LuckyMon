@@ -10,6 +10,7 @@ import other from './other/other'
 Vue.use(Router)
 
 export default new Router({
+  // mode: 'history',
   routes: [
     ...html,
     ...css,
@@ -20,6 +21,6 @@ export default new Router({
     //   name: 'HelloWorld',
     //   component: HelloWorld
     // }
-    { path: '*', redirect: 'js/earth' }
+    { path: '*', redirect: 'html/canvas' }
   ]
 })
