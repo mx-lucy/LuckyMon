@@ -50,14 +50,14 @@ export default {
   .LiquidLeft{
     float: left;
     width: 80%;
-    height: 200px;
+    min-height: 200px;
     background-color: rgba(1,1,1,0.1);
   }
   .LiquidRight{
     float: left;
     width: 20%;
     height: 200px;
-    background: url("../../../static/img/css_icon.png") -230px -450px;
+    background: url("../../../static/img/icon.png") -230px -450px;
     opacity: 0.2;
   }
   .LiquidRight:hover:before{
@@ -65,7 +65,7 @@ export default {
   }
   .LiquidRight:hover:after{
     content:'url(../../../static/img/css_icon.png) -450px -450px';
-    background: url("../../../static/img/css_icon.png") -450px -450px;
+    background: url("../../../static/img/icon.png") -450px -450px;
   }
   .LiquidFooter{
     float: left;

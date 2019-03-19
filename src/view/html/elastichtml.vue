@@ -92,7 +92,7 @@ export default {
     margin-left: 10%;
     content:"";
     display:block;
-    background:url("../../../static/img/css_icon.png") -445px -225px;
+    background:url("../../../static/img/icon.png") -445px -225px;
     background-size: 550px;
     width: 100px;
     height: 100px;

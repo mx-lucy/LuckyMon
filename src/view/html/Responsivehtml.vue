@@ -50,7 +50,7 @@ export default {
   .containerleft{
     float: left;
     width: 20%;
-    min-width: 200px;
+    min-width: 200px ;
     height: 600px;
     position: relative;
     margin-left: 0;
@@ -65,12 +65,12 @@ export default {
   .icon1{
     width: 200px;
     height: 200px;
-    background:  url('../../../static/img/css_icon.png') -890px -670px;
+    background:  url('../../../static/img/icon.png') -890px -670px;
   }
   .icon2{
     width: 200px;
     height: 200px;
-    background: url('../../../static/img/css_icon.png') -450px -670px;
+    background: url('../../../static/img/icon.png') -450px -670px;
   }
   .containerright{
     float: left;
@@ -121,6 +121,9 @@ export default {
     .container:after{
       content: '/*pad: w >= 768  && w< 992*/';
     }
+    .containerright{
+      display: none;
+    }
   }
   /*中等屏幕   w >= 992  && w<1200*/
   @media screen and (max-width: 1200px) and (min-width: 992px) {
@@ -133,6 +136,9 @@ export default {
     }
     .container:after{
       content: '/*中等屏幕   w >= 992  && w<1200*/';
+    }
+    .containerright{
+      display: none;
     }
   }
 

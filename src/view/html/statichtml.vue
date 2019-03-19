@@ -61,15 +61,15 @@ export default {
     margin-top: -200px;
     width: 200px;
     height: 200px;
-    background: url("../../../static/img/css_icon.png") -10px -10px;
+    background: url("../../../static/img/icon.png") -10px -10px;
     opacity: 0.2;
   }
   .StaticRight:hover{
-    background: url("../../../static/img/css_icon.png") -10px -230px;
+    background: url("../../../static/img/icon.png") -10px -230px;
     opacity: 1;
   }
   .StaticRight:active{
-    background: url("../../../static/img/css_icon.png") -10px -450px;
+    background: url("../../../static/img/icon.png") -10px -450px;
     background-size:1100px;
     opacity: 1;
   }

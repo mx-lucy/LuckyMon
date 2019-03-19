@@ -1,2 +1,0 @@
-webpackJsonp([8],{CvMI:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement;return(this._self._c||e)("router-view")},staticRenderFns:[]};var u=n("VU/8")({name:"index"},r,!1,function(e){n("TuB0")},"data-v-2acde7d7",null);t.default=u.exports},TuB0:function(e,t){}});
-//# sourceMappingURL=8.c8ed921c2a45fc58feab.js.map
